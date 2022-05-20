@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&family=Roboto&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+.body-cont {
+  display: flex;
+}
+.body-1 {
+  background-color: #fff38f;
+  height: 750px;
+  width: 50%;
+}
+.body-2 {
+  background-color: #095a54;
+  height: 750px;
+  width: 50%;
+}
+.main-cont {
+  height: 550px;
+  width: 75%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 67px;
+  right: 100px;
+}
+.snd {
+  color: #1f3345;
+}
+
+.content {
+  margin-top: 60px;
+  margin-left: 17em;
+}
+.fn,
+.ln {
+  color: #0c5852;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.lname {
+  margin-right: 30px;
+}
+input {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  height: 35px;
+  width: 23em;
+}
+.phoneno {
+  margin-right: 30px;
+}
+.mess {
+  height: 90px;
+  width: 96%;
+}
+.message {
+  margin-top: 20px;
+}
+.btn {
+  height: 50px;
+  width: 11em;
+  background-color: #095a54;
+  margin-top: 66px;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+}
+::placeholder {
+  font-size: 17px;
+  font-weight: 500;
+}
+.card {
+  height: 470px;
+  width: 35%;
+  background-color: #095a54;
+  position: absolute;
+  top: 30px;
+  left: -150px;
+}
+.card-1 {
+  color: #ffffff;
+  padding: 40px;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+li {
+  list-style: none;
+}
+.location,
+.emaill,
+.call {
+  display: flex;
+}
+
+.img {
+  height: 27px;
+}
+.icon {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-evenly;
+}
+.img-foot {
+  height: 30px;
+}
+li > img {
+  margin-right: 20px;
+}
